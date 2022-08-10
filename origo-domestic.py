@@ -11,6 +11,7 @@ from selenium.webdriver.common.keys import Keys
 import csv
 
 
+
 driver = webdriver.Chrome(executable_path='C:/Users/shiro/Downloads/chromedriver_win32/chromedriver')
 driver.get('https://www.origo.hu/itthon/index.html')
 driver.implicitly_wait(10)
